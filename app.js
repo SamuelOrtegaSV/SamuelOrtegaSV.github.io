@@ -8,8 +8,8 @@ function lanzarAlerta(){
 function censurar(){
 	var  x = document.getElementById("var_uno").value	
 	var  y = document.getElementById("var_dos").value
-	var calculo = x.replace(new RegExp(palabrareservada, "g"), "****");
-	document.getElementbyId("res").value = calculo
+	var calculo = x.replace(new RegExp(y, "g"), "****");
+	document.getElementById("res").value = calculo
 }
 
 function suma(){
