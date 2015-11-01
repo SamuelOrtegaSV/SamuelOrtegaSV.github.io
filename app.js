@@ -14,24 +14,24 @@ function censurar(){
 
 function suma(){
 	var calculo = Number(document.getElementById("var_uno").value) + Number(document.getElementById("var_dos").value);
-	document.getElementbyId("res").value = calculo
+	document.getElementById("res").value = calculo
 }
 
 function resta(){
 	var calculo = Number(document.getElementById("var_uno").value) - Number(document.getElementById("var_dos").value);
-	document.getElementbyId("res").value = calculo
+	document.getElementById("res").value = calculo
 }
 
 function multiplica(){
 	var calculo = Number(document.getElementById("var_uno").value) * Number(document.getElementById("var_dos").value);
-	document.getElementbyId("res").value = calculo
+	document.getElementById("res").value = calculo
 }
 
 function divida(){
 	if (Number(document.getElementbyId("var_dos").value>0)) {
 		var calculo = Number(document.getElementById("var_uno").value) / Number(document.getElementById("var_dos").value);
-		document.getElementbyId("res").value = calculo
+		document.getElementById("res").value = calculo
 	} else {
-		document.getElementbyId("res").value = 0
+		document.getElementById("res").value = 0
 	}
 }
