@@ -28,7 +28,7 @@ function multiplica(){
 }
 
 function divida(){
-	if (Number(document.getElementbyId("var_dos").value>0)) {
+	if (Number(document.getElementById("var_dos").value>0)) {
 		var calculo = Number(document.getElementById("var_uno").value) / Number(document.getElementById("var_dos").value);
 		document.getElementById("res").value = calculo
 	} else {
